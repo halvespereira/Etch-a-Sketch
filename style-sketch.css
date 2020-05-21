@@ -1,0 +1,21 @@
+
+.canvasWrap{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+canvas{
+    grid-column: 2 / 3;
+    border: 5px black solid;
+    width: 800px;
+    height: 500px;
+}
+
+.container{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+h4{
+    justify-content: center;
+}
